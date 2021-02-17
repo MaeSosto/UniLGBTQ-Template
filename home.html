@@ -21,127 +21,151 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
     </script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <!-- Container -->
     <div>
-
+        <!-- Header e video -->
         <div>
-            <div class="div-topnav">
-                <nav class="navbar topnav navbar-expand-lg ">
-                    <span class="span-logo">
-                        <img class="logo" src="Loghi/logo-unilgbt DEF.png">
-                    </span>
-                    <a class="active" href="#home">Home</a>
-                    <a href="#attivita">Attività</a>
-                    <a href="#manifesto">Manifesto</a>
-                    <a href="#articoli">Articoli</a>
-                    <a href="#contatti">Contatti</a>
-                </nav>
-
-            </div>
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg topnav navbar-light ">
+                <img id="img_logo" class="logo" src="loghi/logo-unilgbt DEF.png">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="chisiamo.html">Chi siamo</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="attivita.html">Attività</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Manifesto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Articoli</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatti</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+            <div class="container_nav"></div>
             <span>
-                <video class="video" controls loop autoplay muted>
+                <video class="video" controls autoplay muted>
                     <source src="video/VITE _ cap 1 _ Coming Out.mp4" type="video/mp4">
                 </video>
             </span>
         </div>
-        <div class="sezione" id="intermezzo">
-            <h3>Benvenutə su Uni LGBTQ!</h3>
-            <h5>Siamo l’associazione LGBTQ+ dell’Alma Mater Studiorum di Bologna ma soprattutto un punto di incontro e
-                di aggregazione nella realtà queer bolognese.</h5>
-            <button class="button" style="vertical-align:middle"><span>Scopri di più su di</span></button>
+
+        <!-- Intermezzo di benvenuto -->
+        <div class="sezione" id="intermezzo1">
+            <h2>Benvenutə su Uni LGBTQ!</h2>
+            <h3>Siamo l’associazione LGBTQ+ dell’Alma Mater Studiorum di Bologna ma soprattutto un punto di incontro e
+                di aggregazione nella realtà queer bolognese.</h3>
+            <button class="button"><span>Scopri di più su di noi</span></button>
         </div>
+
+        <!-- Inizio sezione di attività -->
         <div class="sezione">
             <div id="attivita">
-                <h3>Le nostre iniziative</h3>
-                <h5>Come associazione transfemminista e queer portiamo avanti una serie di progetti quali incontri di
+                <h2>Le nostre iniziative</h2>
+                <h3>Come associazione transfemminista e queer portiamo avanti una serie di progetti quali incontri di
                     socializzazione e di formazione, articoli, podcast e molto altro. Qui sotto trovi le nostre
-                    iniziative principali e se vuoi unirti o proporne di nuove non esitare a scriverci!</h5>
+                    iniziative principali e se vuoi unirti o proporne di nuove non esitare a scriverci!</h3>
             </div>
 
-            <!-- First Photo Grid-->
+            <!-- Prima riga articoli -->
             <div class="page-content w3-row-padding">
                 <div class="w3-third w3-container w3-margin-bottom">
-                    img src="img/redazione.jpg">
-                    <div class="w3-container w3-white">
-                        <p><b>Articoli del blog</b></p>
-                        <p>Leggi gli articoli scritti dalla nostra Redazione su notizie di attualità, media, costume e molto
-                            altro.</p>
-                            <button class="button-articolo" style="vertical-align:middle"><span>Tutti gli articoli
+                    <img src="attivita/Redazione.jpg" style="margin-top: 10%;">
+                    <div class="w3-container">
+                        <h4>Articoli del blog</h4>
+                        <h5>Leggi gli articoli scritti dalla nostra Redazione su notizie di attualità, media, costume e
+                            molto
+                            altro.</h5>
+                        <button class="button-articolo"><span>Tutti gli articoli
                             </span></button>
                     </div>
                 </div>
                 <div class="w3-third w3-container w3-margin-bottom">
                     <img src="Loghi/takethemic.jpeg">
-                    <div class="w3-container w3-white">
-                        <p><b>Il nostro Podcast</b></p>
-                        <p>Attraverso il Podcast affrontiamo in una manciata di minuti le tematiche che ci stanno a cuore.</p>
-                        <button class="button-articolo" style="vertical-align:middle"><span>Ascolta il podcast ora
-                        </span></button>
+                    <div class="w3-container">
+                        <h4>Il nostro Podcast</h4>
+                        <h5>Attraverso il Podcast affrontiamo in una manciata di minuti le tematiche che ci stanno a
+                            cuore.</h5>
+                        <button class="button-articolo"><span>Ascolta il podcast ora
+                            </span></button>
                     </div>
                 </div>
                 <div class="w3-third w3-container">
                     <img src="Loghi/logo-unilgbt DEF.png">
-                    <div class="w3-container w3-white">
-                        <p><b>Il manifesto</b></p>
-                        <p>Nel manifesto trovi ciò in cui crediamo come associazione e le azioni che portiamo avanti.</p>
-                        <button class="button-articolo" style="vertical-align:middle"><span>Leggi il
-                            manifesto</span></button>
+                    <div class="w3-container">
+                        <h4>Il manifesto</h4>
+                        <h5>Nel manifesto trovi ciò in cui crediamo come associazione e le azioni che portiamo avanti.
+                        </h5>
+                        <button class="button-articolo"><span>Leggi il
+                                manifesto</span></button>
                     </div>
                 </div>
             </div>
 
-            <!-- <div class="page-content"> 
-            <div class="w3-row-padding w3-padding-16 w3-center">
-            <div class="w3-third w3-container w3-margin-bottom">
-                <div class="page-content-img w3-quarter">
-                    <img src="img/redazione.jpg">
-                    <h5>Articoli del blog</h5>
-                    <p>Leggi gli articoli scritti dalla nostra Redazione su notizie di attualità, media, costume e molto
-                        altro.</p>
-                    <button class="button-articolo" style="vertical-align:middle"><span>Tutti gli articoli
-                        </span></button>
-                </div>
-                <div class="page-content-img w3-quarter">
-                    <img src="Loghi/takethemic.jpeg">
-                    <h5>Il nostro Podcast</h5>
-                    <p>Attraverso il Podcast affrontiamo in una manciata di minuti le tematiche che ci stanno a cuore.
-                    </p>
-                    <button class="button-articolo" style="vertical-align:middle"><span>Ascolta il podcast ora
-                        </span></button>
-                </div>
-                <div class="page-content-img w3-quarter">
-                    <img src="Loghi/logo-unilgbt DEF.png">
-                    <h5>Il manifesto</h5>
-                    <p>Nel manifesto trovi ciò in cui crediamo come associazione e le azioni che portiamo avanti.</p>
-                    <button class="button-articolo" style="vertical-align:middle"><span>Leggi il
-                            manifesto</span></button>
-                </div>
-            </div> -->
-
-            <div class="w3-row-padding w3-padding-16 w3-center">
-                <div class="page-content-img w3-quarter">
+            <!-- Seconda riga articoli -->
+            <div class="page-content w3-row-padding">
+                <div class="w3-third w3-container w3-margin-bottom">
                     <img src="img/spotify.jpg">
-                    <h5>Playlist Spotify</h5>
-                    <p>Ascolta la nostra playlist collaborativa queer per dare la carica alla tua giornata.</p>
-                    <button class="button-articolo" style="vertical-align:middle"><span>Ascolta ora</span></button>
+                    <div class="w3-container">
+                        <h4>Playlist Spotify</h4>
+                        <h5>Ascolta la nostra playlist collaborativa queer per dare la carica alla tua giornata.</h5>
+                        <button class="button-articolo"><span>Ascolta ora</span></button>
+                    </div>
                 </div>
-                <div class="page-content-img w3-quarter">
+                <div class="w3-third w3-container w3-margin-bottom">
                     <img src="img/gofundme.jpg">
-                    <h5>Crowdfunding</h5>
-                    <p>Sostienici con una donazione per continuare a farci realizzare i nostri progetti.</p>
-                    <button class="button-articolo" style="vertical-align:middle"><span>Ulteriori informazioni
-                        </span></button>
+                    <div class="w3-container">
+                        <h4>Crowdfunding</h4>
+                        <h5>Sostienici con una donazione per continuare a farci realizzare i nostri progetti.</h5>
+                        <button class="button-articolo"><span>Ulteriori informazioni
+                            </span></button>
+                    </div>
                 </div>
-                <div class="page-content-img w3-quarter">
+                <div class="w3-third w3-container">
                     <img src="img/drammicuore.jpg">
-                    <h5>Drammi a cuore aperto</h5>
-                    <p>Per ogni vostra pena d’amore, la nostra posta del cuore ha la risposta (quasi) giusta.</p>
-                    <button class="button-articolo" style="vertical-align:middle"><span>Leggi la rubrica</span></button>
+                    <div class="w3-container">
+                        <h4>Drammi a cuore aperto</h4>
+                        <h5>Per ogni vostra pena d’amore, la nostra posta del cuore ha la risposta (quasi) giusta.</h5>
+                        <button class="button-articolo"><span>Leggi la rubrica</span></button>
+                    </div>
                 </div>
             </div>
+
+            <!-- Intermezzo incontri -->
+            <div class="sezione" id="intermezzo2">
+                <h2>Gli incontri 2020/2021</h2>
+                <h3>A causa della pandemia i nostri incontri si svolgono online sulla piattaforma Jitsi.org. Gli
+                    incontri sono aperti a tuttə, per partecipare clicca sul bottone qui sotto ogni mercoledì poco prima
+                    delle 21:30!</h3>
+                <button class="button"><span>Partecipa agli incontri</span></button>
+            </div>
         </div>
+
+        <!-- Footer -->
+        <footer>
+            <div>unilgbtq@gmail.com</div>
+            <!-- Icone social -->
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </footer>
     </div>
 </body>
 
